@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: poppins;
+      box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(200, 233, 247);
+        overflow: hidden;
+        position: relative;
+    }
+    section a{
+        color: black;
+        
+    }
+    section{
+        
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 0 10%;
+    }
+    p{
+        width: 40%;
+        opacity: 80%;
+    }
+
+    h1{
+        font-size: 38px;
+    }
+
+    form{
+        position: absolute;
+        width: 400px;
+        height: 500px;
+        top: 10%;
+        right: 5%;
+        border-radius: 15px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2%;
+        box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.199);
+        gap: 10px;
+       
+    }
+form h3{
+    
+        text-transform: capitalize;
+        font-size: 32px;
+
+}
+form p{
+    font-weight: 200;
+    opacity: 70%;
+    width: 100%;
+    font-size: 12px;
+}
+form input{
+    border: 0.5px solid rgba(0, 0, 0, 0.205);
+    outline:none;
+}
+
+.innerform{
+    display: flex;
+    gap: 5px;
+    margin: 1% 0;
+    
+    
+}
+
+.innerform input{
+    width: 50%;
+    padding: 4% 5%;
+  
+
+}
+.phnumber{
+    padding: 3% 4%;
+  
+}
+textarea{
+    padding: 3% 4%;
+    height: 100px;
+
+    outline: none;
+    border: 0.5px solid rgba(0, 0, 0, 0.205);
+}
+button{
+    padding: 3% 4%;
+    background-color: rgb(80, 108, 231);
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+  </style>
+  <body>
+    <section>
+      <h1>Contact us</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illo
+        necessitatibus architecto commodi corrupti iure voluptatem cupiditate
+        cumque quisquam aperiam!
+      </p>
+      <br />
+      <p>example123@gmail.com</p>
+      <br />
+      <a href="#">Contact support</a>
+    </section>
+
+    <form>
+        <h3>get in touch</h3>
+        <p>you can reach us anytime</p>
+        <div class="innerform">
+            <input type="text" placeholder="first name">
+        <input type="text" placeholder="last name">
+        </div>
+        
+        
+        <input type="text" name="" id="" placeholder="phone number" class="phnumber">
+        <textarea name="" id="" placeholder="how can we help you?"></textarea> 
+
+        <button>submit</button>
+        <p>by contacting us you agree to our <b>terms of services</b>and<b>privacy and policies</b></p>
+    </form>
+  </body>
+</html>
