@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Template Areas Fix</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .parent {
+            height: 500px;
+            width: 500px;
+            background-color: aquamarine;
+            display: grid;
+            grid-template-areas: 
+    "a b c"
+    "c b a"
+    "b a c";
+
+            gap: 5px;
+            padding: 10px;
+        }
+
+        .child {
+            border: 2px solid black;
+        }
+
+        .child-a {
+            grid-area: a;
+            background-color: rgb(22, 255, 189);
+        }
+
+        .child-b {
+            grid-area: b;
+            background-color: blue;
+        }
+
+        .child-c {
+            grid-area: c;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child child-a"></div>
+        <div class="child child-b"></div>
+        <div class="child child-c"></div>
+    </div>
+</body>
+</html>
