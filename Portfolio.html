@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .pattren {
+        background-color: #e5e5f700;
+        opacity: 0.8;
+        background-image: radial-gradient(#a3a3a3 1.05px, #e5e5f700 1.05px);
+        background-size: 21px 21px;
+        position: relative;
+      }
+      .pattren::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgb(255, 255, 255);
+background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(250,250,250,0.5354516806722689) 50%, rgb(255, 255, 255) 100%);
+      }
+    </style>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main class="bg-[#FFFFFF] w-full py-[2%] px-[5%] tracking-tighter">
+      <nav class="flex justify-between items-center">
+        <div>
+          <h1 class="text-xl font-semibold tracking-tighter">Portfolio</h1>
+        </div>
+        <div class="flex gap-5">
+          <a href="#" class="font-semibold text-xl">Home</a>
+          <a href="#" class="font-semibold text-xl opacity-50">Socials</a>
+          <a href="#" class="font-semibold text-xl opacity-50">Project</a>
+          <a href="#" class="font-semibold text-xl opacity-50">Contact</a>
+        </div>
+      </nav>
+      <section class="flex justify-between items-end mt-16">
+        <div class="font-bold tracking-tighter leading-none">
+          <h1 class="text-2xl">hello, i am</h1>
+          <br />
+          <h1 class="text-7xl leading-none -mt-6 -ml-1">Piyush.</h1>
+        </div>
+        <div class="flex items-center gap-5">
+          <h1 class="text-xl opacity-50">[06:52pm]</h1>
+          <div class="w-32 h-[1px] bg-gray-950 opacity-50"></div>
+          <h1 class="text-xl font-semibold">Creative frontEnd Developer</h1>
+        </div>
+      </section>
+      <section class="w-full h-[60vh] bg-red-300 mt-10">
+        <img
+          src="https://images.unsplash.com/photo-1632287019821-0d4136c06d04?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="object-cover w-full h-full"
+        />
+      </section>
+      <section
+        class="w-full h-[70vh] relative flex flex-col gap-5 justify-center items-center mt-[3%]"
+      >
+        <img
+          width="240"
+          height="240"
+          src="https://img.icons8.com/color/240/javascript--v1.png"
+          alt="javascript--v1"
+          class="absolute scale-40 bottom-[10%] rotate-30 left-[60%]"
+        />
+        <img
+          width="240"
+          height="240"
+          src="https://img.icons8.com/fluency/240/visual-studio.png"
+          alt="visual-studio"
+          class="absolute scale-50 top-[15%] -rotate-20 left-[20%]"
+        />
+        <img
+          width="240"
+          height="240"
+          src="https://img.icons8.com/fluency/240/html-5.png"
+          alt="html-5"
+          class="absolute scale-70 top-[10%] rotate-20 left-[70%]"
+        />
+        <img
+          width="240"
+          height="240"
+          src="https://img.icons8.com/fluency/240/css3.png"
+          alt="css3"
+          class="absolute scale-50 bottom-[17%] -rotate-30 left-[20%] z-[3]"
+        />
+
+        <h1 class="text-5xl font-bold">[I design & build experiences]</h1>
+        <p class="text-xl w-[50%] text-center">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          possimus dicta debitis, blanditiis iusto quam labore temporibus harum.
+          Mollitia, quisquam possimus error tempore itaque nostrum corporis
+          cumque quo molestias laboriosam!
+        </p>
+      </section>
+      <section class="w-full flex gap-5 items-center">
+        <h1 class="text-7xl font-semibold">2017</h1>
+        <div class="w-32 h-[1px] bg-gray-950"></div>
+        <h1 class="text-7xl font-semibold opacity-50">The Beginning</h1>
+      </section>
+      <section
+        class="w-full mt-[5%] py-[5%] flex gap-10 justify-center items-center"
+      >
+        <div class="flex flex-col gap-10">
+          <div class="h-[35rem] w-[25rem] bg-red-300"></div>
+          <div class="h-[35rem] w-[25rem] bg-red-300"></div>
+        </div>
+        <div class="flex flex-col gap-10 justify-center items-center">
+          <div class="h-[45rem] w-[25rem] bg-red-300"></div>
+        </div>
+        <div class="flex flex-col gap-10">
+          <div class="h-[35rem] w-[25rem] bg-red-300"></div>
+          <div class="h-[35rem] w-[25rem] bg-red-300"></div>
+        </div>
+      </section>
+      <section class="w-full flex gap-5 items-center mt-[3%]">
+        <h1 class="text-7xl font-semibold">2018</h1>
+        <div class="w-32 h-[1px] bg-gray-950"></div>
+        <h1 class="text-7xl font-semibold opacity-50">The Escalation</h1>
+      </section>
+      <section
+        class="w-full mt-[5%] py-[5%] flex gap-10 justify-center items-center"
+      >
+        <div class="flex flex-col gap-10">
+          <div class="h-[35rem] w-[25rem] bg-red-300"></div>
+          <div class="h-[35rem] w-[25rem] bg-red-300"></div>
+        </div>
+        <div class="flex flex-col gap-10 justify-center items-center">
+          <div class="h-[45rem] w-[25rem] bg-red-300"></div>
+          <div class="h-[30rem] w-[25rem] bg-red-300"></div>
+        </div>
+        <div class="flex flex-col gap-10">
+          <div class="h-[35rem] w-[25rem] bg-red-300"></div>
+          <div class="h-[35rem] w-[25rem] bg-red-300"></div>
+        </div>
+      </section>
+      <section class=" w-full h-[60vh] pattren flex flex-col gap-10 justify-center items-center">
+        <h1 class="text-6xl font-semibold relative z-10">I am great at</h1>
+        <img src="./Assets/Tech stack1.png" alt="" class="object-cover z-10 ">
+        <img src="./Assets/Tect stack2.png" alt="" class="object-cover z-10 ">
+      </section>
+      <section class=" w-full h-[70vh] flex flex-col justify-between mt-[3%]">
+        <div>
+            <h1 class="text-6xl font-semibold">Client</h1>
+            <div class="flex gap-5">
+                <h1 class="text-9xl font-bold">Testiomonials </h1>
+                <img src="./Assets/Arrow.png" alt="" class="object-cover">
+                <h1 class="text-9xl font-bold">works</h1>
+            </div>
+    
+        </div>
+        <div>
+            <h1 class="text-6xl font-semibold">Britannia</h1>
+            <div class="flex justify-start items-center gap-10">
+                <h1 class="text-2xl font-bold opacity-50">2017</h1>
+                <img src="./Assets/Arrow.png" alt="" class=" w-[10%] ">
+                <h1 class="text-2xl font-bold">Chandigarh</h1>
+            </div>
+        </div>
+               
+      </section>
+      <section class="w-full h-[100vh] bg-red-300 mt-[3%] ">
+        <img src="https://images.unsplash.com/photo-1656957135046-5e83a257873b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="object-cover w-full h-full ">
+        
+      </section>
+      <section class="flex gap-5 h-[80vh] mt-[3%] py-[3%]">
+        <div class="w-[30%]  h-full overflow-hidden">
+            <h1 class="text-5xl font-bold">Orange Splash</h1> 
+            <div class="flex justify-start items-center gap-1">
+                <h1 class="text-xl font-bold ">2017</h1>
+                <img width="64" height="64" src="https://img.icons8.com/laces/64/arrow.png" alt="arrow" />
+                <h1 class="text-xl font-bold">Chandigarh</h1>
+            </div>
+            <img src="https://images.unsplash.com/photo-1738599778390-af77d7cf10e6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-[60%] object-cover">
+        </div>
+        <div class="w-[70%]  h-full overflow-hidden flex flex-col justify-end items-start"> 
+            <h1 class="text-5xl font-bold">Palm Jhumerah</h1> 
+            <div class="flex justify-start items-center gap-1">
+                <h1 class="text-xl font-bold ">2025</h1>
+                <img width="64" height="64" src="https://img.icons8.com/laces/64/arrow.png" alt="arrow" />
+                <h1 class="text-xl font-bold">Dubai</h1>
+            </div>
+            <img src="https://plus.unsplash.com/premium_photo-1737405816020-4217919dffc8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-[70%] object-cover">
+        </div>
+      </section>
+      <footer class="w-full h-[10vh]  flex justify-between items-end mt-[5%]">
+        <h1 class="text-xl"><b>Piyush</b> Chhabra</h1>
+        <h1 class="text-xl"><b>10 feb.2025 [11:59pm]</b></h1>
+      </footer>
+    </main>
+  </body>
+</html>
