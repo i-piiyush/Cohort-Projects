@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_outward" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0%;
+        font-family: poppins;
+      }
+      body,
+      html {
+        height: 100vh;
+        width: 100%;
+        padding:0 4rem;
+      }
+      nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+      }
+      nav a{
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
+        padding: 0 5px;
+      }
+
+      nav button{
+        padding: 7px 20px;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+      }
+      .btns{
+        display: flex;
+        gap: 10px;
+        
+      }
+      .main-btn{
+        background-color: black;
+        color: white;
+      }
+      section{
+        /* background-color: red; */
+        width: 100%;
+        height: 80vh;
+        border-radius: 30px;
+        display: grid;
+        grid-template-areas: 
+        "a a b b"
+        "a a c d";
+        overflow: hidden;
+        gap: 10px;
+      }
+
+      section div{
+        border-radius: 15px;
+      }
+      .box1{
+        background-color: rgb(17, 17, 17);
+        grid-area: a;
+        display: flex;
+        flex-direction: column;
+        padding: 10% 5%;
+        justify-content: space-between;
+        color: wheat;
+      }
+      
+      .box1 .part1 p{
+        text-transform: uppercase;
+        
+      }
+      .box1 .part1 h1{
+        font-size: 3.5rem;
+        
+        line-height: 1;
+        font-weight: 600;
+      }
+      .box1 .part2 button{
+        background-color: wheat;
+        padding: 14px 30px;
+        border-radius: 7px;
+        border: none;
+        cursor: pointer;
+
+      }
+      .box2{
+        background-color: rgb(194, 192, 192);
+        grid-area: b;
+        display: flex;
+        justify-content: space-between;
+        padding: 5% 5%;
+        color: rgb(17, 17, 17);
+        flex-direction: column;
+      }
+      .box2 h1{
+        font-size: 3rem;
+        font-weight: 600;
+        width: 100%;
+        
+        
+      }
+      section p{
+        text-transform: uppercase;
+      }
+      .box2 div{
+        display: flex;
+        justify-content: space-between;
+      }
+      .box3 div{
+        display: flex;
+        justify-content: space-between;
+      }
+      .box3 h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+        width: 100%;
+        line-height: 1;
+        
+        
+      }
+    
+      .box4 div{
+        display: flex;
+        justify-content: space-between;
+      }
+      .box4 h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+        width: 100%;
+        line-height: 1;
+        
+        
+      }
+      .box3{
+        background-color: rgb(236, 132, 236);
+        grid-area: c;
+        display: flex;
+        justify-content: space-between;
+        padding: 5% 5%;
+        color: wheat;
+        flex-direction: column;
+      }
+      .box4{
+        background-color: rgb(185, 241, 100);
+        grid-area: d;
+        display: flex;
+        justify-content: space-between;
+        padding: 5% 5%;
+        color: rgb(17, 17, 17);
+        flex-direction: column;
+      }
+   
+   
+   
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="links">
+          <a href="#">Products</a>
+          <a href="#">App</a>
+          <a href="#">FAQ</a>
+          <a href="#">About</a>
+        </div>
+        <div class="btns">
+          <button>Sign Up</button>
+          <button class="main-btn">Login</button>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="box1">
+        <div class="part1">
+          <p>more offers</p>
+          <h1>There is<br>something else for <br>you</h1>
+
+        </div>
+<div class="part2">
+  <button>All Products</button>
+</div>
+      </div>
+      <div class="box2">
+        <div>
+          <p>is A.i gonna rule our world?</p>
+        <span class="material-symbols-outlined">
+          arrow_outward
+          </span>
+        </div>
+        
+
+        <h1>Read our blog</h1>
+      </div>
+      <div class="box3">
+        <div>
+          <p>Discover our history</p>
+        <span class="material-symbols-outlined">
+          arrow_outward
+          </span>
+        </div>
+        
+
+        <h1>About us</h1>
+      </div>
+      <div class="box4">
+
+        <div>
+          <p>Have some questions?</p>
+        <span class="material-symbols-outlined">
+          arrow_outward
+          </span>
+        </div>
+        
+
+        <h1>contact us</h1>
+      </div>
+
+    </section>
+  </body>
+</html>
